@@ -1,0 +1,59 @@
+
+
+img.foto {
+   width: 540px;
+   height: 330px;
+   
+}
+
+
+.galeria{
+	
+	width: 540px;
+	height: 330px;
+	position: relative;
+	overflow: auto;
+    margin-top: 0px auto;
+    margin-left: 0px auto;
+    margin-right: 0px auto;
+    margin-bottom: 0px auto;
+    background-color: white;
+}
+
+.foto{
+	position: absolute;
+	opacity: 0;
+	animation-name: animacao;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes animacao{
+	25%{
+		opacity: 1;
+	}
+
+	50%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}
+
+
+.foto:nth-child(1){
+     animation-delay: 0s;
+}
+
+
+.foto:nth-child(2){
+	animation-delay: 5s;
+}
+
+
+
+.foto:nth-child(3){
+	animation-delay: 10s;
+}

@@ -1,0 +1,124 @@
+#pagamento {
+	background-color: #CDCDB4;
+	width: 900px;
+	height: 260px;
+	position: relative;
+    left: -100px;
+    top: 150px;
+
+
+
+}
+
+h1#idformas{              /*modifica a posição de alinhamento do titulo formas de pagamento*/
+	padding-top: 15px;
+	padding-left: 60px;
+}
+
+img.formaspg{         /*altera a formatação da imagem de pagamento*/
+   width: 600px;
+   height: 200px;
+   padding: 15px;
+}
+
+img#siteseguro{
+	 width: 200px;
+   height: 200px;
+   padding: 14px;
+}
+
+
+.footer {
+	background-color: #D3D3D3; /*background-color: #f1f1f1;*/
+	width: 900px;
+	height: 80px;
+	margin-bottom: auto;
+    text-align: center;
+    position: relative;
+    left: -100px;
+    top: 150px;
+
+
+}
+
+#niveis{
+	text-align: left;
+	line-height: 25px;
+    padding-left: 10%;
+
+
+}
+
+
+ul.menufooter{
+padding-top: 38px;
+padding-left: 40px;
+padding-right: 40px;
+display: inline-block;
+vertical-align: top;
+margin-top: -10px;
+list-style: none;
+}
+
+
+
+#container_footer {
+	background-color: #838B8B; /*muda o fundo dos menus footer*/
+	width: 900px;
+	height: 250px;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	position: relative;
+    left: -100px;
+    top: 150px;
+
+
+}
+
+ul.menufooter a{
+     color: solid black;
+
+}
+
+ul.menufooter a:hover{
+     color: hotpink;
+}
+
+
+.rede{                /*modifica os icones de redes sociais*/
+    width: 24px;
+    height: 24px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-bottom: 6px;
+    margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	
+
+ 
+}
+
+.icone{
+	margin: 0px auto;
+	width: 30px;
+	border-radius: 26%;
+	float: right;
+	position: absolute;
+	margin-left: 0px auto;
+
+
+}
+
+img.icone{
+	left: 64%;
+	margin-left: 20px auto;
+	
+
+}

@@ -1,0 +1,34 @@
+#empresa {
+	background-color: #CD6839;
+	width: 900px;
+	height: 200px;
+    position: relative;
+    left: -100px;
+    top: 150px;
+	
+}
+
+
+
+#social {
+	background-color: #CDCDB4;
+	width: 900px;
+	height: 50px;
+    display: left;
+    position: relative;
+    left: -100px;
+    top: 150px;
+}
+
+
+.footer {
+	background-color: white; /*background-color: #f1f1f1;*/
+	width: 900px;
+	height: 80px;
+	margin-bottom: auto;
+    text-align: center;
+    position: relative;
+    left: -100px;
+    top: 150px;
+
+}

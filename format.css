@@ -1,0 +1,389 @@
+body{
+	background-image: url("img/bann.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: helvetica, arial, sans-serif;
+}
+
+
+#todos_menus{
+	background-color: white;
+	width: 900px;
+	height: 300px;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+
+/*estrutura aonde as divis serão colocadas como se fosse uma folha a4*/
+#container {
+	background-color: pink;
+	width: 900px;
+	height: 300px;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	
+
+}
+
+
+
+#banner {
+	background-color: black; /*cor de fundo do banner esta como preto*/
+	width: 580px;
+	height: 321px;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	
+
+}
+
+
+
+#logo {
+	background-color: gray;
+	width: 320px;
+	height: 321px;
+	background-image: ;
+	float: left;
+
+}
+
+
+/*aqui começa a formatação dos menus*/
+#menu {
+	background-color: black;
+	width: 900px;
+	height: 60px;
+	position: relative;
+	z-index: 1;
+}
+	
+
+
+   
+   .menu ul li {
+
+			background-color: #591313; /*cor vermelha do menu*/
+			color: black;
+			float: left;
+			width: 150px;
+			height: 60px;
+			display: inline-block;
+			text-align: center;
+			line-height: 60px;
+			font-size: 18px;
+			position: relative;
+		}
+
+		.menu ul li:hover {background:#333; color:red; -moz-box-shadow:0 7px 20px 0 #CCC; -webkit-box-shadow:0 7px 20px 0 #ccc; text-shadow:0px 7px 20px #fff;
+			/* cor quando o mause passa emcima*/
+		}
+
+		.menu ul {
+			padding: 0;
+		}
+
+		.menu ul ul {
+            display: none;
+		}
+
+		.menu ul li:hover > ul{
+            display: block;
+		}
+
+		.menu ul ul ul{
+			margin-left: 202px;
+			top: 0;
+			position: absolute;
+		}
+
+		.menu ul ul li:hover{
+			background-color:#ba5050; /*quando mause passa em cima muda  acor*/
+		}
+
+		.menu ul ul ul li:hover{
+			background-color:black;
+		}
+        
+        /*altera as caracteristicas das letras nos menus*/
+		.menu a {
+			color: white;
+			text-decoration: none;
+		}
+
+/*aqui modifica as laterais do slide carrossel a esquerda*/
+
+
+#left {
+   background-color: #acc0e0;
+   float: left;
+   width: 180px;
+   height: 330px;
+
+}
+
+#left img{
+	width: 180px;
+	height: 330px;
+}
+
+/*aqui modifica as laterais do slide carrossel a direita*/
+#rigth {
+   background-color: #acc0e0;
+   float: right;
+   width: 180px;
+   height: 330px;
+
+}
+
+#rigth img{
+	width: 180px;
+	height: 330px;
+}
+
+/*modifica as imagens do carrossel*/
+#slides {
+    background-color: #9F79EE;
+    width: 900px;
+    height: 350px;
+    margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+
+
+#espaco{
+	background-color: gray; 
+	width: 900px;                      
+	height: 50px;
+}
+
+#texto {                              
+                                         /*aqui modifica o tamanho da div onde fica os produtos*/
+	background-color: white; /*modifica a cor de fundo caso queira fazer o teste copie e cole ao lado #87CEEB */
+	width: 900px;                        /*modifica os produtos diversos da pagina home*/
+	height: 1000px;
+	padding-top: 70px;
+
+}
+
+.textoform {                              
+                                         /*aqui modifica o tamanho da div onde fica os produtos*/
+	background-color: #F0F8FF; /*modifica a cor de fundo caso queira fazer o teste copie e cole ao lado #87CEEB */
+	width: 900px;                        /*modifica os produtos diversos da pagina home*/
+	height: 1000px;
+	padding-top: 70px;
+
+}
+
+.titulo1{
+	text-align: center;
+	font-size: 170%;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+}
+
+.empresa1{
+	text-align: justify;
+	font-size: 120%;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 70px;
+	text-indent: 35px;
+
+}
+
+
+
+.titulodiversos h2{
+     padding-top: 20px;
+	 margin-left: 380px;
+}
+
+
+.titulohome h2{
+
+    font-family: "Futura-Bold";
+    font-size: 30px;
+    text-align: left;
+    background: none;
+    border-radius: none;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+
+#empresa {
+	background-color: #CD6839;
+	width: 900px;
+	height: 200px;
+}
+
+
+
+#pagamento {
+	background-color: #CDCDB4;
+	width: 900px;
+	height: 260px;
+
+
+}
+
+h1#idformas{              /*modifica a posição de alinhamento do titulo formas de pagamento*/
+	padding-top: 15px;
+	padding-left: 60px;
+}
+
+img.formaspg{         /*altera a formatação da imagem de pagamento*/
+   width: 600px;
+   height: 200px;
+   padding: 15px;
+   border-radius: 20px;
+}
+
+img#siteseguro{
+	 width: 200px;
+   height: 200px;
+   padding: 14px;
+}
+
+
+.footer {
+	background-color: #D3D3D3; /*background-color: #f1f1f1;*/
+	width: 900px;
+	height: 100px;
+	margin-bottom: auto;
+    text-align: center;
+
+}
+
+#infofooter{
+     padding-top: 15px;
+}
+
+#login.net{
+	
+	
+	
+}
+
+
+
+
+/*aqui é o inicio do menu footer*/
+
+
+#niveis{
+	text-align: left;
+	line-height: 25px;
+    padding-left: 10%;
+
+
+}
+
+
+ul.menufooter{
+padding-top: 38px;
+padding-left: 40px;
+padding-right: 40px;
+display: inline-block;
+vertical-align: top;
+margin-top: -10px;
+list-style: none;
+}
+
+
+
+#container_footer {
+	background-color: #838B8B; /*muda o fundo dos menus footer*/
+	width: 900px;
+	height: 250px;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	position: relative;
+ 
+
+
+}
+
+ul.menufooter a{
+     color: solid black;
+
+}
+
+ul.menufooter a:hover{
+     color: hotpink;
+}
+
+
+.rede{                /*modifica os icones de redes sociais*/
+    width: 24px;
+    height: 24px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-bottom: 6px;
+    margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	
+
+ 
+}
+
+.icone{
+	margin: 0px auto;
+	width: 30px;
+	border-radius: 26%;
+	float: right;
+	position: absolute;
+	margin-left: 0px auto;
+
+
+}
+
+img.icone{
+	left: 64%;
+	margin-left: 20px auto;
+	
+
+}
+
+
+li.rede#facebook{          /*modifica a posição das letras do icone redes sociais*/
+	padding-left: 0px;
+}
+
+li.rede#twitter{
+	padding-left: 0px;
+}
+
+li.rede#instagran{
+	padding-left: 0px;
+}
+
+li.rede#youtube{
+	padding-left: 0px;
+}
+
+
+img.icone{
+	left: 64%;
+	margin-left: 40px;
+	
+
+}
